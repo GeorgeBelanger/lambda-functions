@@ -922,7 +922,7 @@ const tiles = [
             'Access-Control-Allow-Origin': '*'
         },
         "statusCode": 200,
-        "body": tiles,
+        "body": JSON.stringify(tiles),
     };
     return response;
 };

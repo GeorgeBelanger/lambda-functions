@@ -1406,7 +1406,7 @@ exports.handler = async (event) => {
             'Access-Control-Allow-Origin': '*'
         },
         "statusCode": 200,
-        "body": articles,
+        "body": JSON.stringify(articles),
     };
     return response;
 };
